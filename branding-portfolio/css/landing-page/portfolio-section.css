@@ -59,9 +59,6 @@
   width: 100%;
 }
 
-.image {
-  background-image: url("../");
-}
 #portfolio-section .portfolio-container .box:hover .image .hover-bg {
   padding: 10px 20px;
   background: rgba(255, 53, 53, 0.8);
@@ -97,7 +94,7 @@
   grid-row: 1 / 2;
 }
 #portfolio-section .portfolio-container .box.image1 .image {
-  background: url("https://cdn.dribbble.com/users/823181/screenshots/4511085/scenery_illustration.gif");
+  background: url("../../img/HairCare.png");
   height: 100%;
   width: 100%;
   background-size: cover;
