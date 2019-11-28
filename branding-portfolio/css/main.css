@@ -7,6 +7,7 @@
 @import "landing-page/blog-section.css";
 @import "landing-page/testimonials-section.css";
 @import "portfolio/portfolio-projects.css";
+@import "landing-page/contact-section.css";
 @import "footer-section.css";
 
 body {
@@ -100,6 +101,12 @@ header .menu-btn {
   .container {
     width: 100%;
   }
+  button,
+  .btn,
+  .btn-primary {
+    margin-left: 92px;
+    width: 69%;
+  }
 }
 /* Phones */
 @media only screen and (max-width: 767px) {
@@ -114,5 +121,11 @@ header .menu-btn {
   }
   .mobile-menu {
     display: flex;
+  }
+  button,
+  .btn,
+  .btn-primary {
+    margin-left: 50px;
+    width: 69%;
   }
 }
