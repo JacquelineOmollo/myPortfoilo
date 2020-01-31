@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.form-group button {
+  margin-top: 10px;
+}
+
 .form-control {
   padding: 20px;
 }
@@ -16,11 +20,13 @@ button,
   padding-top: 1%;
 }
 
+
 .btn,
 .btn-primary {
   background-color: #fecb5d;
   border: none;
   color: black;
+ 
 }
 
 label {

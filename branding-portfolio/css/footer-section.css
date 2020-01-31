@@ -1,6 +1,6 @@
 footer {
   background: #f9fafc;
-  padding: 100px 15px;
+  padding: 40px 10px;
 }
 footer .social-container {
   display: grid;
@@ -33,6 +33,9 @@ footer h6 {
   color: Black;
   text-transform: capitalize;
   text-align: center;
+}
+.port_foot{
+  margin-top: 100px;
 }
 
 /* Tablets */
