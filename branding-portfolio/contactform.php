@@ -5,7 +5,7 @@ if (isset($_POST["submit"])) {
   $email = $_POST["email"];
   $comment = $POST["comment"];
 
-  $mailto = "JacquelineOmollo@gmail.com";
+  $mailto = "jacqueline-omollo@lambdastudents.com";
   $headers = "From: ".$email;
   $txt = "You have received and email from " .$name. ".\n\n".$comment;
 
